@@ -1,0 +1,100 @@
+@charset "UTF-8";
+body{
+	background-image: url(../Image/10.jpg);
+	width: 99%;
+	height: 100%;
+	align-content: center;
+}
+.loginDiv{
+	
+	height: 300px; 
+	width: 350px; 
+	background-color:#e6e6e6;
+	margin: 15% auto;
+	padding-top: 50px;
+	text-align: center;
+	box-shadow:0px 10px 10px #656565;
+	-webkit-box-shadow:0px 10px 10px #656565 ;
+	-moz-box-shadow:0px 10px 10px #656565 ;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+#txtAcc,#txtPwd{
+	margin: 20px auto;
+	height: 30px;
+	width: 75%;
+	font-size: small;
+	border-radius: 10px;
+	border: 0px;
+	outline: none;
+	box-shadow:0px 5px 5px #999999;
+	-webkit-box-shadow:0px 5px 5px #999999 ;
+	-moz-box-shadow:0px 5px 5px #999999 ;
+}
+#txtPwd:hover{
+	box-shadow:0px 6px 6px #999999;
+	-webkit-box-shadow:0px 6px 6px #999999 ;
+	-moz-box-shadow:0px 6px 6px #999999 ;
+}
+#txtAcc:hover{
+	box-shadow:0px 6px 6px #999999;
+	-webkit-box-shadow:0px 6px 6px #999999 ;
+	-moz-box-shadow:0px 6px 6px #999999 ;
+}
+.rememLogin{
+	float: left;
+	margin-left: 65px;
+	font-size: small;
+	color: #656565;
+}
+#rememPwd,#findPwd,.rememLogin>label:hover{
+	cursor: pointer;
+}
+.findLogin{
+	font-size: small;
+	color: #656565;
+}
+#log,#reg{
+	float: left;
+	height: 30px;
+	width: 100px;	
+	/* margin:30px 10px 0px 65px; */
+	text-align: center;
+	border: 0px;
+	border-radius: 5px;
+}
+#log:hover{
+	background-color: #666666;
+	cursor: pointer;
+}
+#reg:hover{
+	background-color: #666666;
+	cursor: pointer;
+}
+#imgAcc,#imgPwd{
+	width: 20px;
+	margin-left: 10px;
+}
+.userLog{
+	margin-top: 30px;
+	float: right;
+	margin-right: 65px;
+}
+.userSign{
+	margin-top: 30px;
+	float: left;
+	margin-left: 65px;
+}
+ul>li,ul>li>a{
+	float:left;
+	font-size:large;
+	color:#f67524;
+	margin-left: 30px;	
+}
+ul>li:hover,ul>li>a:hover{
+	color:#fff;
+	cursor: pointer;
+}
+
+
+
